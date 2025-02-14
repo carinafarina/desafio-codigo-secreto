@@ -8,18 +8,18 @@
 # - F (menos de 60) – "Estude um pouco mais, você tirou F."  
 
 
-notas = int(input("Insira a sua nota: "))
+notas = int(input('Insira a sua nota: '))
 
-if notas > 90 or notas <100:
-    print("Parabéns, você tirou A!")
-elif notas > 80 or notas <89:  
-    print("Muito bem, você tirou B.")  
-elif notas > 70 or notas <79:  
-    print("Bom trabalho, você tirou C.")    
-elif notas > 0 or notas <69:  
-    print("Fique atento, você tirou D.")
+if notas >= 90 or notas == 100:
+    print('Parabéns, você tirou A!')
+elif notas >= 80 or notas == 89:  
+    print('Muito bem, você tirou B.')  
+elif notas >= 70 or notas == 79:  
+    print('Bom trabalho, você tirou C.')    
+elif notas >= 60 or notas == 69:  
+    print('Fique atento, você tirou D.')
 elif notas <60:  
-    print("Estude um pouco mais, você tirou F.")           
+    print('Estude um pouco mais, você tirou F.')           
  
 
     
